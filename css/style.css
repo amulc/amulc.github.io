@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
+:root{
+  --main-color:blue;
+  --main-hover-color:red;
+}
 html {
   box-sizing: border-box;
 }

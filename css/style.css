@@ -53,7 +53,7 @@ html {
 
 /* choose us section style */
 .font-bold {
-  font-family: bahij-bold !important;
+  font-family: "bahij-bold" !important;
 }
 
 div.row img {
@@ -72,3 +72,69 @@ p {
 }
 
 /* end of choose us style */
+/* student style section */
+#font-bold {
+  font-family: "bahij-bold";
+}
+
+.main-color-1 {
+  color: var(--main-color);
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 40px;
+  color: var(--main-hover-color);
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  font-size: 40px;
+  color: var(--main-hover-color);
+}
+
+.item {
+  height: 300px;
+  width: 420px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  background-color: var(--main-color);
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  width: 10px;
+  height: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: white;
+  color: var(--main-hover-color);
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: white;
+  color: var(--main-hover-color);
+}
+
+.owl-carousel .owl-item img {
+  width: 60px;
+  height: 60px;
+}
+
+p {
+  color: var(--gray);
+}
+
+small {
+  color: var(--gray);
+}
+
+/* end of student section */

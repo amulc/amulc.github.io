@@ -29,6 +29,25 @@ html {
 /* end of header style */
 /* style for about us section */
 
+
+#animation {
+  width: 150px;
+  height: 5px;
+  background-color: #06a3da;
+  border-radius: 2px;
+}
+
+.section-title-run {
+  width: 6px;
+  height: 5px;
+  background-color: #fff;
+}
+#button-12 {
+  width: 200px;
+  margin-top: 20px;
+  height: 50px;
+}
+
 /* end of about us style */
 
 /* choose us section style */

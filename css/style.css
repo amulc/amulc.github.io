@@ -42,6 +42,7 @@ html {
   height: 5px;
   background-color: #fff;
 }
+
 #button-12 {
   width: 200px;
   margin-top: 20px;
@@ -52,7 +53,7 @@ html {
 
 /* choose us section style */
 .font-bold {
-  font-family: amu-bold !important;
+  font-family: bahij-bold !important;
 }
 
 div.row img {

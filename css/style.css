@@ -1,51 +1,138 @@
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+@font-face {
+  font-family: "bahij-bold";
+  src: url("../fonts/Bahij-bold.ttf");
+}
+
+@font-face {
+  font-family: "bahij-light";
+  src: url("../fonts/Bahij-light.ttf");
+}
+
+:root {
+  --main-color: #075f9f;
+  --main-hover-color: #ff5e14;
+  --gray: #6c757d;
+}
 html {
   box-sizing: border-box;
+  font-family: "bahij-light";
 }
-* {
-  font-family: "Quicksand", sans-serif;
+/* global style */
+.title {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  font-family: "bahij-bold";
 }
-body {
-  background-color: #1c1c1c;
-  height: 100%;
-  margin: 0px;
+.title-des {
+  font-size: 30px;
+  font-family: "bahij-bold";
+  color: black;
+  font-weight: 700;
 }
-div.title {
-  text-align: center;
-  color: #fff;
-  font-size: 2em;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-  text-transform: uppercase;
+input {
+  border-radius: 0px !important;
 }
-.main #content p {
-  color: #e6dbae;
-  font-family: "Quicksand", sans-serif;
-  font-size: 2em;
-  letter-spacing: 0.5rem;
-  text-transform: uppercase;
-}
-.main{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items:center;
-  flex-direction: column;
 
+.first-bg {
+  background-color: var(--main-color);
 }
-img{
+.second-bg {
+  background-color: var(--main-hover-color);
+}
+
+/* style for header section */
+
+/* end of header style */
+/* style for about us section */
+
+#animation {
   width: 150px;
-  height: 150px;
-  border-radius: 20px;
+  height: 5px;
+  background-color: #06a3da;
+  border-radius: 2px;
 }
-.main #content .title:hover {
-  -webkit-animation: MISSION-HOVER 1.5s infinite;
-  animation: MISSION-HOVER 1.5s infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease;
+
+.section-title-run {
+  width: 6px;
+  height: 5px;
+  background-color: #fff;
 }
+#button-12 {
+  width: 200px;
+  margin-top: 20px;
+  height: 50px;
+}
+
+/* end of about us style */
+
+/* choose us section style */
+.font-bold {
+  font-family: amu-bold !important;
+}
+
+div.child-1 {
+  width: 65px;
+  height: 65px;
+  font-family: "bahij-bold";
+}
+
+p {
+  color: var(--gray);
+}
+
+/* end of choose us style */
+
+/* contact section */
+textarea + input {
+  border: none !important;
+}
+div.phone i {
+  color: var(--Wc-color);
+}
+div.col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--BC-color);
+}
+
+select {
+  border-radius: 0px !important;
+  height: 45px;
+}
+/* end of contact section */
+
+/* teacher section */
+.owl-theme .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  border-radius: 0px;
+  background: var(--Orange-color) !important;
+}
+.owl-theme .owl-dots .owl-dot span:hover {
+  background: var(--BC-color) !important;
+  color: var(--Orange-color);
+}
+div.owl-nav span {
+  color: var(--Orange-color) !important;
+}
+div.owl-nav span:hover {
+  background: var(--BC-color) !important;
+  color: var(--BC-color) !important;
+}
+div.item .description {
+  background-color: var(--Orange-color);
+  color: var(--BC-color);
+}
+div.item .description:hover {
+  background-color: var(--BC-color);
+  color: var(--Orange-color) !important;
+}
+div.item .description p {
+  color: var(--color) !important;
+}
+div.item {
+  margin: 0px 20px;
+}
+/* end of teacher section */

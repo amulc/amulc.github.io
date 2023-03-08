@@ -11,7 +11,9 @@
 :root {
   --main-color: #075f9f;
   --main-hover-color: #ff5e14;
-  --gray: #6c757d
+  --gray: #6c757d;
+  --bahij-bold:bahij-bold;
+  --bahij-light:bahij-light;
 }
 
 html {
@@ -28,12 +30,14 @@ html {
 
 /* end of header style */
 /* style for about us section */
-
+#col-4 h5{
+  color: #075f9f;
+}
 
 #animation {
   width: 150px;
   height: 5px;
-  background-color: #06a3da;
+  background-color: #075f9f;
   border-radius: 2px;
 }
 
@@ -48,6 +52,33 @@ html {
   height: 50px;
 }
 
+#col-3{
+  color: #6c757d;
+}
+#row-3{
+  margin-left: 20px;
+}
+
+#row-3 i{
+  background-color: #075f9f;
+}
+#row-4 i{
+  margin-left: 8px;
+  color: #075f9f;
+}
+
+#row-4 div{
+  font-family: var(--bahij-bold);
+}
+
+#number h5{
+  font-family: var(--bahij-bold);
+  color: #075f9f;
+}
+
+#number span{
+  color: #6c757d;
+}
 /* end of about us style */
 
 /* choose us section style */

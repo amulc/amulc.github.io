@@ -11,31 +11,40 @@
 :root {
   --main-color: #075f9f;
   --main-hover-color: #ff5e14;
-  --gray: #6c757d
+  --gray: #6c757d;
 }
-
 html {
   box-sizing: border-box;
   font-family: "bahij-light";
 }
 /* global style */
-.title{
+.title {
   font-weight: 700;
   font-size: 2.5rem;
   color: var(--main-color);
   font-family: "bahij-bold";
 }
+.title-des {
+  font-size: 30px;
+  font-family: "bahij-bold";
+  color: black;
+  font-weight: 700;
+}
+input {
+  border-radius: 0px !important;
+}
 
-.main-color {
+.first-bg {
   background-color: var(--main-color);
+}
+.second-bg {
+  background-color: var(--main-hover-color);
 }
 
 /* style for header section */
 
-
 /* end of header style */
 /* style for about us section */
-
 
 #animation {
   width: 150px;
@@ -69,7 +78,61 @@ div.child-1 {
 }
 
 p {
-  color: var(--gray)
+  color: var(--gray);
 }
 
 /* end of choose us style */
+
+/* contact section */
+textarea + input {
+  border: none !important;
+}
+div.phone i {
+  color: var(--Wc-color);
+}
+div.col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--BC-color);
+}
+
+select {
+  border-radius: 0px !important;
+  height: 45px;
+}
+/* end of contact section */
+
+/* teacher section */
+.owl-theme .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  border-radius: 0px;
+  background: var(--Orange-color) !important;
+}
+.owl-theme .owl-dots .owl-dot span:hover {
+  background: var(--BC-color) !important;
+  color: var(--Orange-color);
+}
+div.owl-nav span {
+  color: var(--Orange-color) !important;
+}
+div.owl-nav span:hover {
+  background: var(--BC-color) !important;
+  color: var(--BC-color) !important;
+}
+div.item .description {
+  background-color: var(--Orange-color);
+  color: var(--BC-color);
+}
+div.item .description:hover {
+  background-color: var(--BC-color);
+  color: var(--Orange-color) !important;
+}
+div.item .description p {
+  color: var(--color) !important;
+}
+div.item {
+  margin: 0px 20px;
+}
+/* end of teacher section */

@@ -13,6 +13,7 @@
   --main-hover-color: #ff5e14;
   --gray: #6c757d;
 }
+
 html {
   box-sizing: border-box;
   font-family: "bahij-light";
@@ -25,12 +26,14 @@ html {
   color: var(--main-color);
   font-family: "bahij-bold";
 }
+
 .title-des {
   font-size: 30px;
   font-family: "bahij-bold";
   color: black;
   font-weight: 700;
 }
+
 input {
   border-radius: 0px !important;
 }
@@ -38,6 +41,7 @@ input {
 .first-bg {
   background-color: var(--main-color);
 }
+
 .second-bg {
   background-color: var(--main-hover-color);
 }
@@ -45,6 +49,29 @@ input {
 /* style for header section */
 
 /* end of header style */
+/* style for footer section */
+.copy-write {
+  background-color: #061429;
+}
+
+a {
+  font-size: 20px;
+  height: 35px;
+}
+
+a i {
+  margin-left: 7px;
+}
+
+.icon-footer li a i {
+  color: var(--main-color);
+}
+
+i.info {
+  color: var(--main-color);
+}
+
+/* end of style for footer */
 /* style for about us section */
 
 #animation {
@@ -67,6 +94,69 @@ input {
 }
 
 /* end of about us style */
+/* student style section */
+.main-color {
+  color: var(--main-color);
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  font-size: 40px;
+  color: var(--main-hover-color);
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  font-size: 40px;
+  color: var(--main-hover-color);
+}
+
+.item {
+  height: 300px;
+  width: 420px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  background-color: var(--main-color) !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  border-radius: 0px;
+  background: #723a3a !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  width: 10px;
+  height: 10px;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: white;
+  color: var(--main-hover-color);
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: white;
+  color: var(--main-hover-color);
+}
+
+.owl-carousel .owl-item img {
+  width: 60px;
+  height: 60px;
+}
+
+p {
+  color: var(--gray);
+}
+
+small {
+  color: var(--gray);
+}
+
+/* end of style for student section  */
 
 /* choose us section style */
 .font-bold {
@@ -86,12 +176,14 @@ p {
 /* end of choose us style */
 
 /* contact section */
-textarea + input {
+textarea+input {
   border: none !important;
 }
+
 div.phone i {
   color: var(--Wc-color);
 }
+
 div.col-1 {
   display: flex;
   justify-content: center;
@@ -103,6 +195,7 @@ select {
   border-radius: 0px !important;
   height: 45px;
 }
+
 /* end of contact section */
 
 /* teacher section */
@@ -112,29 +205,37 @@ select {
   border-radius: 0px;
   background: var(--Orange-color) !important;
 }
+
 .owl-theme .owl-dots .owl-dot span:hover {
   background: var(--BC-color) !important;
   color: var(--Orange-color);
 }
+
 div.owl-nav span {
   color: var(--Orange-color) !important;
 }
+
 div.owl-nav span:hover {
   background: var(--BC-color) !important;
   color: var(--BC-color) !important;
 }
+
 div.item .description {
   background-color: var(--Orange-color);
   color: var(--BC-color);
 }
+
 div.item .description:hover {
   background-color: var(--BC-color);
   color: var(--Orange-color) !important;
 }
+
 div.item .description p {
   color: var(--color) !important;
 }
+
 div.item {
   margin: 0px 20px;
 }
+
 /* end of teacher section */

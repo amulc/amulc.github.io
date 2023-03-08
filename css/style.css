@@ -20,6 +20,13 @@ html {
   box-sizing: border-box;
   font-family: "bahij-light";
 }
+/* global style */
+.title{
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--main-color);
+  font-family: "bahij-bold";
+}
 
 .main-color {
   background-color: var(--main-color);
@@ -84,11 +91,6 @@ html {
 /* choose us section style */
 .font-bold {
   font-family: amu-bold !important;
-}
-
-div.row img {
-  width: 100%;
-  height: 375px;
 }
 
 div.child-1 {

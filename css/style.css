@@ -18,8 +18,9 @@ html {
   box-sizing: border-box;
   font-family: "bahij-light";
 }
+
 /* global style */
-.title{
+.title {
   font-weight: 700;
   font-size: 2.5rem;
   color: var(--main-color);
@@ -154,9 +155,12 @@ a i {
   margin-left: 7px;
 }
 
-#social {
-  width: 5px;
-  height: 5px;
+ul.icon-footer li a i {
+  color: var(--main-color);
+}
+
+.info {
+  color: var(--main-color);
 }
 
 /* end of footer style */

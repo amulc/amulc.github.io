@@ -243,6 +243,22 @@ div.child-1 {
   font-family: "bahij-bold";
 }
 
+div.child-1:hover {
+  background-color: #0a89e4;
+}
+
+div.child-1 i {
+  transition: 1s;
+}
+
+div.child-1 {
+  transition: 1s;
+}
+
+div.child-1:hover i {
+  filter: invert(100%);
+}
+
 div.child-1 {
   width: 65px;
   height: 65px;

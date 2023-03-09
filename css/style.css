@@ -66,13 +66,8 @@ a {
   height: 35px;
 }
 
-a i {
-  /* margin-left: 7px; */
-}
-
 .icon-footer li:hover {
   padding-right: 10px;
-  /* transition: 5s; */
 }
 
 .icon-footer li {
@@ -173,16 +168,13 @@ i.info {
 div.animation-1 {
   width: 150px;
   height: 5px;
-  /* background-color: #ff5e14; */
   background-color: var(--main-color);
-  margin: auto;
 }
 
 div.animation-1 div.animation-2 {
   width: 5px;
   height: 5px;
   background-color: rgb(172, 36, 36);
-  /* animation: section-title-run-center 5s infinite linear; */
 }
 
 .owl-carousel .owl-nav button.owl-next {
@@ -262,10 +254,8 @@ div.child-1 {
 
 div.row img {
   width: 100%;
-  /* height: 375px; */
   height: 375px;
 }
-
 
 p {
   color: var(--gray);

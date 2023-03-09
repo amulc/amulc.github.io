@@ -13,6 +13,11 @@
   --main-hover-color: #ff5e14;
   --gray: #6c757d;
 }
+=======
+  --bahij-bold:bahij-bold;
+  --bahij-light:bahij-light;
+>>>>>>> 7dd411478484437d1e6f93bb046884601c90a34c
+}
 
 html {
   box-sizing: border-box;
@@ -49,6 +54,7 @@ input {
 /* style for header section */
 
 /* end of header style */
+<<<<<<< HEAD
 /* style for footer section */
 .copy-write {
   background-color: #061429;
@@ -74,10 +80,15 @@ i.info {
 /* end of style for footer */
 /* style for about us section */
 
+/* style for about us section */
+#col-4 h5{
+  color: #075f9f;
+}
+
 #animation {
   width: 150px;
   height: 5px;
-  background-color: #06a3da;
+  background-color: #075f9f;
   border-radius: 2px;
 }
 
@@ -93,6 +104,34 @@ i.info {
   height: 50px;
 }
 
+#col-3{
+  color: #6c757d;
+}
+#row-3{
+  margin-left: 20px;
+}
+
+#row-3 i{
+  background-color: #075f9f;
+}
+#row-4 i{
+  margin-left: 8px;
+  color: #075f9f;
+}
+
+#row-4 div{
+  font-family: var(--bahij-bold);
+  font-size: 1.5rem;
+}
+
+#number h5{
+  font-family: var(--bahij-bold);
+  color: #075f9f;
+}
+
+#number span{
+  color: #6c757d;
+}
 /* end of about us style */
 /* student style section */
 .main-color {

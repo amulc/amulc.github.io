@@ -13,11 +13,12 @@
   --main-hover-color: #ff5e14;
   --gray: #6c757d;
 }
-=======
+
+/* =======
   --bahij-bold:bahij-bold;
   --bahij-light:bahij-light;
 >>>>>>> 7dd411478484437d1e6f93bb046884601c90a34c
-}
+} */
 
 html {
   box-sizing: border-box;
@@ -54,7 +55,7 @@ input {
 /* style for header section */
 
 /* end of header style */
-<<<<<<< HEAD
+
 /* style for footer section */
 .copy-write {
   background-color: #061429;
@@ -81,7 +82,7 @@ i.info {
 /* style for about us section */
 
 /* style for about us section */
-#col-4 h5{
+#col-4 h5 {
   color: #075f9f;
 }
 
@@ -104,34 +105,37 @@ i.info {
   height: 50px;
 }
 
-#col-3{
+#col-3 {
   color: #6c757d;
 }
-#row-3{
+
+#row-3 {
   margin-left: 20px;
 }
 
-#row-3 i{
+#row-3 i {
   background-color: #075f9f;
 }
-#row-4 i{
+
+#row-4 i {
   margin-left: 8px;
   color: #075f9f;
 }
 
-#row-4 div{
+#row-4 div {
   font-family: var(--bahij-bold);
   font-size: 1.5rem;
 }
 
-#number h5{
+#number h5 {
   font-family: var(--bahij-bold);
   color: #075f9f;
 }
 
-#number span{
+#number span {
   color: #6c757d;
 }
+
 /* end of about us style */
 /* student style section */
 .main-color {
@@ -149,8 +153,8 @@ i.info {
 }
 
 .item {
-  height: 300px;
-  width: 420px;
+  height: 290px;
+  width: 380px;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -198,15 +202,23 @@ small {
 /* end of style for student section  */
 
 /* choose us section style */
-.font-bold {
-  font-family: "bahij-bold" !important;
-}
-
 div.child-1 {
   width: 65px;
   height: 65px;
   font-family: "bahij-bold";
 }
+
+div.child-1 {
+  width: 65px;
+  height: 65px;
+}
+
+div.row img {
+  width: 100%;
+  /* height: 375px; */
+  height: 375px;
+}
+
 
 p {
   color: var(--gray);

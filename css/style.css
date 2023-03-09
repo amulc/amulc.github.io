@@ -31,7 +31,7 @@ html {
   font-weight: 700;
 }
 input {
-  border-radius: 0px !important;
+  border-radius: 0px;
 }
 
 .first-bg {
@@ -83,23 +83,10 @@ p {
 
 /* end of choose us style */
 
-/* contact section */
-textarea + input {
-  border: none !important;
-}
-div.phone i {
-  color: var(--Wc-color);
-}
-div.col-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--BC-color);
-}
+/* start of contact us section */
 
-select {
-  border-radius: 0px !important;
-  height: 45px;
+select,input {
+  height: 50px;
 }
 /* end of contact section */
 
@@ -108,29 +95,34 @@ select {
   width: 20px;
   height: 20px;
   border-radius: 0px;
-  background: var(--Orange-color) !important;
+  background: var(--main-color);
+  opacity: 9;
+ 
 }
 .owl-theme .owl-dots .owl-dot span:hover {
-  background: var(--BC-color) !important;
-  color: var(--Orange-color);
+  background: var(--main-hover-color);
 }
 div.owl-nav span {
-  color: var(--Orange-color) !important;
+  color: var(--main-color);
+  font-size:40px;
+  opacity:9 ;
 }
 div.owl-nav span:hover {
-  background: var(--BC-color) !important;
-  color: var(--BC-color) !important;
+    /* background: #869791; */
+    color: #FFF;
+    text-decoration: none;
 }
+
 div.item .description {
-  background-color: var(--Orange-color);
-  color: var(--BC-color);
+  background-color: var(--main-color);
+  /* color: var(); */
 }
 div.item .description:hover {
-  background-color: var(--BC-color);
-  color: var(--Orange-color) !important;
+  background-color: var(--main-hover-color);
+  color: var(--Orange-color);
 }
 div.item .description p {
-  color: var(--color) !important;
+  color: var(--color);
 }
 div.item {
   margin: 0px 20px;

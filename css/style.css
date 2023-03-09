@@ -67,11 +67,25 @@ a {
 }
 
 a i {
-  margin-left: 7px;
+  /* margin-left: 7px; */
 }
 
 .icon-footer li a i {
   color: var(--main-color);
+}
+
+.media a {
+  height: 50px;
+  width: 55px;
+}
+
+.media i:hover {
+  filter: invert(100%);
+  /* font-size: 30px; */
+}
+
+.media i {
+  font-size: 20px;
 }
 
 i.info {
@@ -211,6 +225,10 @@ div.child-1 {
 div.child-1 {
   width: 65px;
   height: 65px;
+}
+
+#bahij-bold {
+  font-family: "bahij-bold";
 }
 
 div.row img {

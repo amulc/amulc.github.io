@@ -9,7 +9,7 @@
 }
 
 :root {
-  --main-color: #075f9f;
+  --main-color: #0867ac;
   --main-hover-color: #ff5e14;
   --gray: #6c757d;
 }
@@ -69,11 +69,13 @@ a {
 a i {
   /* margin-left: 7px; */
 }
-.icon-footer li:hover{
+
+.icon-footer li:hover {
   padding-right: 10px;
   /* transition: 5s; */
 }
-.icon-footer li{
+
+.icon-footer li {
   transition: .5s;
 }
 
@@ -84,15 +86,20 @@ a i {
 .media a {
   height: 50px;
   width: 55px;
+  transition: 1s;
 }
 
-.media i:hover {
+.media a:hover {
+  background-color: #0a89e4;
+}
+
+.media a:hover i {
   filter: invert(100%);
-  /* font-size: 30px; */
 }
 
 .media i {
   font-size: 20px;
+  transition: 1s;
 }
 
 i.info {
@@ -204,7 +211,7 @@ div.animation-1 div.animation-2 {
   width: 15px;
   height: 15px;
   border-radius: 0px;
-  background: #723a3a !important;
+  background: #c4baba !important;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -290,17 +297,17 @@ select {
 /* end of contact section */
 
 /* teacher section */
-.owl-theme .owl-dots .owl-dot span {
+/* .owl-theme .owl-dots .owl-dot span {
   width: 20px;
   height: 20px;
   border-radius: 0px;
-  background: var(--Orange-color) !important;
-}
+  background: var(--gray) !important;
+} */
 
-.owl-theme .owl-dots .owl-dot span:hover {
-  background: var(--BC-color) !important;
+/* .owl-theme .owl-dots .owl-dot span:hover {
+  background: var(--main-color) !important;
   color: var(--Orange-color);
-}
+} */
 
 div.owl-nav span {
   color: var(--Orange-color) !important;

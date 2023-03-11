@@ -14,9 +14,150 @@
 </head>
 
 <body>
-    <header>
+    <div class="container-fluid text-white px-5 d-none d-lg-block" id="container-navbar">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center">
+                <div class="d-flex align-items-center" id="container-navbar-inner">
+                    <i class="fa-solid fa-location-dot ms-2"></i>
+                    <p class="mb-0 ms-4">جبرئیل، محله توحید، توحید ۱۱</p>
+                    <i class="fa-solid fa-phone ms-2" style="transform: scaleX(-1);"></i>
+                    <p class="mb-0 ms-4">۷۷۷۷۷۷۷۷+</p>
+                    <i class="fa-solid fa-envelope-open ms-2"></i>
+                    <p class="mb-0 ms-4">asdaod@asdasd.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center">
+                <div class="d-flex align-items-center justify-content-end" id="container-navbar-inner2">
+                    <a href="" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
 
-    </header>
+                    <a href="" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="" class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid position-relative p-0" id="bg-carousel">
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img src="images/Amu-1-transparent.png" id="amu-logo" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="" class="nav-item nav-link active">Home</a>
+                        <a href="" class="nav-item nav-link">About</a>
+                        <a href="" class="nav-item nav-link">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">Blog</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="" class="dropdown-item">Blog Grid</a>
+                                <a href="" class="dropdown-item">Blog Detail</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="" class="dropdown-item">Pricing Plan</a>
+                                <a href="" class="dropdown-item">Our features</a>
+                                <a href="" class="dropdown-item">Team Members</a>
+                                <a href="" class="dropdown-item">Testimonial</a>
+                                <a href="" class="dropdown-item">Free Quote</a>
+                            </div>
+                        </div>
+                        <a href="" class="nav-item nav-link">Contact</a>
+
+                        <div class="navbar-nav-inner d-lg-none"></div>
+
+                    </div>
+                    <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></button>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background:rgba(9,30,62,.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width:600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid facts py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0">
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: zoomIn;">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height:150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width:60px;height:60px;"><i class="fa fa-users text-primary"></i></div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Happy Clients</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4"
+                        style="height:150px;">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width:60px;height:60px;"><i class="fa fa-check text-white"></i></div>
+                        <div class="ps-4">
+                            <h5 class="text-primary mb-0">Projects Done</h5>
+                            <h1 class="mb-0" data-toggle="counter-up">12345</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s"
+                    style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
+                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4"
+                        style="height:150px;">
+                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2"
+                            style="width:60px;height:60px;"><i class="fa fa-award text-primary"></i></div>
+                        <div class="ps-4">
+                            <h5 class="text-white mb-0">Win Awards</h5>
+                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <main>
         <div class="container">
             <div class="about-us" id="about-us">
@@ -39,25 +180,25 @@
                                 <div class="col-12">
                                     <div class="row mt-3" id="row-4">
                                         <div class="col-12 col-sm-6 col-md-5 col-lg-5"> <i
-                                                class="fa-solid fa-check text-primary"></i>Award Wining</div>
+                                                class="fa-solid fa-check"></i>برنده جایزه</div>
                                         <div class="col-12 col-sm-6 col-md-5 col-lg-5 mt-1"> <i
-                                                class="fa fa-check text-primary"></i>24/7 Support</div>
+                                                class="fa fa-check"></i>حمایت 24/7</div>
                                         <div class="col-12 col-sm-6 col-md-5 col-lg-5 mt-2"> <i
-                                                class="fa fa-check text-primary"></i>Professional staff</div>
+                                                class="fa fa-check"></i>اساتید  با تجربه</div>
                                         <div class="col-12 col-sm-6 col-md-5 col-lg-5 mt-2"> <i
-                                                class="fa fa-check text-primary"></i>Fair Prices</div>
+                                                class="fa fa-check"></i>قیمت خوب</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="row p-3">
                                 <div class="col-12 d-flex mt-3">
-                                    <div id="row-3"><i class="fa-solid fa-phone text-white bg-primary p-3 rounded"></i>
+                                    <div id="row-3"><i class="fa-solid fa-phone text-white p-3 rounded"></i>
                                     </div>
                                     <div>
-                                        <div class="row">
-                                            <div class="col-12">شماره تماس</div>
-                                            <div class="col-12">0789232334</div>
+                                        <div class="row" id="number">
+                                            <div class="col-12"><h5>شماره تماس</h5></div>
+                                            <div class="col-12"><span>0093222222222</span></div>
                                         </div>
                                     </div>
                                 </div>

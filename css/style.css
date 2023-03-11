@@ -152,7 +152,7 @@ input {
 }
 
 #row-4 div{
-  font-family: var(--bahij-bold);
+  font-weight: 520;
   font-size: 1.5rem;
 }
 

@@ -7,11 +7,17 @@
   font-family: "bahij-light";
   src: url("../fonts/Bahij-light.ttf");
 }
-
+*{
+  font-family: "bahij-light";
+}
 :root {
-  --main-color: #075f9f;
-  --main-hover-color: #ff5e14;
-  --gray: #6c757d;
+  /* --primary: #075f9f; */
+  --primary: #075f9f;
+  --secondary: #ff5e14;
+  /* --secondary: #ff5e14; */
+  --light: #eef9ff;
+  --dark: #091e3e;
+  --paragraph: 16px;
 }
 html {
   box-sizing: border-box;
@@ -22,7 +28,7 @@ html {
 .title {
   font-weight: 700;
   font-size: 2.5rem;
-  color: var(--main-color);
+  color: var(--primary);
   font-family: "bahij-bold";
 }
 .title-des {
@@ -36,15 +42,15 @@ input {
 }
 
 .first-bg {
-  background-color: var(--main-color);
+  background-color: var(--primary);
 }
 .second-bg {
-  background-color: var(--main-hover-color);
+  background-color: var(--secondary);
 }
 
 /* style for header section */
 #container-navbar {
-  background-color: var(--main-color);
+  background-color: var(--primary);
 }
 
 #container-navbar-inner {
@@ -113,7 +119,7 @@ input {
 }
 /* end of header style */
 /* style for about us section */
-#col-4 h5{
+#col-4 h5 {
   color: #075f9f;
 }
 
@@ -136,32 +142,32 @@ input {
   height: 50px;
 }
 
-#col-3{
+#col-3 {
   color: #6c757d;
 }
-#row-3{
+#row-3 {
   margin-left: 20px;
 }
 
-#row-3 i{
+#row-3 i {
   background-color: #075f9f;
 }
-#row-4 i{
+#row-4 i {
   margin-left: 8px;
   color: #075f9f;
 }
 
-#row-4 div{
+#row-4 div {
   font-family: var(--bahij-bold);
   font-size: 1.5rem;
 }
 
-#number h5{
+#number h5 {
   font-family: var(--bahij-bold);
   color: #075f9f;
 }
 
-#number span{
+#number span {
   color: #6c757d;
 }
 /* end of about us style */

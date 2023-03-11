@@ -43,7 +43,74 @@ input {
 }
 
 /* style for header section */
+#container-navbar {
+  background-color: var(--main-color);
+}
 
+#container-navbar-inner {
+  height: 45px;
+}
+
+#container-navbar-inner2 {
+  height: 45px;
+}
+
+#container-navbar-inner2 > * {
+  width: 32px;
+  height: 32px;
+}
+
+#amu-logo {
+  max-width: 180px;
+  max-height: 180px;
+  width: auto;
+  height: auto;
+}
+
+#bg-carousel {
+  background-image: url("../images/carousel-1.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgba(9, 30, 62, 0.7);
+  height: 100%;
+  /* position: relative; */
+}
+.navbar {
+  border-bottom: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.navbar-nav-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1000;
+  background-color: rgba(9, 30, 62, 0.7);
+}
+
+#navbarCollapse .active {
+  border-bottom: var(--primary) 2px solid;
+}
+
+#navbarCollapse .nav-item:hover {
+  border-bottom: var(--primary) 2px solid;
+}
+
+#navbarCollapse a {
+  line-height: 4.5;
+}
+
+.facts {
+  /* margin-top: -75px; */
+  /* z-index: 999999999999; */
+  position: relative;
+  top: -75px;
+}
 /* end of header style */
 /* style for about us section */
 

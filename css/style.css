@@ -178,7 +178,7 @@ a {
 }
 
 .quick-links span {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .icon-footer a {
@@ -206,6 +206,7 @@ a {
 
 i.info {
   color: var(--main-color);
+  font-size: 1.2rem;
 }
 
 /* end of style for footer */
@@ -298,6 +299,7 @@ i.info {
     left: 0
   }
 
+
 }
 
 .owl-carousel .owl-nav button.owl-next {
@@ -316,7 +318,7 @@ i.info {
 
 .item {
   height: 290px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .owl-carousel.owl-drag .owl-item {

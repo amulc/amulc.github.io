@@ -123,6 +123,15 @@ p {
 
 select,input {
   height: 50px;
+  font-family: "bahij-bold";
+}
+#name h4{
+  font-family: "bahij-bold";
+  font-size: 1.5rem;
+}
+.info{
+font-family:"bahij-bold";
+font-size: 1rem;
 }
 /* end of contact section */
 
@@ -132,84 +141,40 @@ select,input {
   height: 20px;
   border-radius: 0px;
   background: var(--main-color);
-  opacity: 9;
- 
 }
 .owl-theme .owl-dots .owl-dot span:hover {
   background: var(--main-hover-color);
-}
-.owl-theme .owl-dots .owl-dot:active span{
-  /* color:red; */
 }
 div.owl-nav span {
   color: var(--main-color);
   font-size:40px;
   opacity:9 ;
 }
-div.owl-nav span:hover {
-    /* background: #869791; */
-    color: #FFF;
-    text-decoration: none;
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: white;
 }
 
+.owl-theme .owl-dots .owl-dot.active span {
+  background: var(--main-hover-color) !important; 
+
+}
 div.item .description {
   background:rgb(238, 249, 259);
+  overflow: hidden;
 }
 div.item .description p {
   color: var(--color);
 }
 div.item {
   margin: 0px 20px;
-  position: relative;
-
 }
-div.item::after{
-  content:"";
-  position: absolute;
-  top:0;
-  left:0;
-  /* background:#075f9f; */
+div.team-img:hover{
+  width:100%;
   height:100%;
-  width: 100%;
-  opacity: 70%;
-}
-div.item div.team-img  img:hover::after{
-  content:"";
-  position: absolute;
-  top:0;
-  left:0;
-  background:#075f9f;
-  height:100%;
-  width: 100%;
-  opacity: 70%;
-}
-.team-img{
-  position: relative;
-}
-.team-social {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: -5px;
-  left: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* transition: .5s; */
-  /* background:#ff5e14; */
-  display: none !important;
+  background:var(--main-hover-color);
+ opacity: 70%;
 }
 
 
-.view {
-    position: relative;
-    overflow: hidden;
-    cursor: default;
-}
-.view ::before, ::after {
-  box-sizing: border-box;
-}
-div {
-  display: block;
-}
+    
 /* end of teacher section */

@@ -251,7 +251,7 @@
                     </div>
                 </div>
                 <div class="owl-carousel owl-theme px-0">
-                    <div class="item bg-info">
+                    <div class="item">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                             <img src="images/banner.jpg" alt="" class="img-fluid rounded">
                             <div class="px-4">
@@ -259,12 +259,12 @@
                                 <small class="text-uppercase">yousufi-mahdi</small>
                             </div>
                         </div>
-                        <div class="pt-4 pb-3 px-5">
+                        <div class="paragraph pt-4 pb-3 px-5">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, eveniet, possimus
                                 repelt ipsam labore n</p>
                         </div>
                     </div>
-                    <div class="item bg-info">
+                    <div class="item">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                             <img src="images/feature.jpg" alt="" class="img-fluid rounded">
                             <div class="px-4">
@@ -272,12 +272,12 @@
                                 <small class="text-uppercase">yousufi-mahdi</small>
                             </div>
                         </div>
-                        <div class="pt-4 pb-3 px-5">
+                        <div class=" paragraph pt-4 pb-3 px-5">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, eveniet, possimus
                                 repelt ipsam labore n</p>
                         </div>
                     </div>
-                    <div class="item bg-info">
+                    <div class="item">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                             <img src="images/3.jpg" alt="" class="img-fluid rounded">
                             <div class="px-4">
@@ -285,12 +285,12 @@
                                 <small class="text-uppercase">yousufi-mahdi</small>
                             </div>
                         </div>
-                        <div class="pt-4 pb-3 px-5">
+                        <div class="paragraph pt-4 pb-3 px-5">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, eveniet, possimus
                                 repelt ipsam labore n</p>
                         </div>
                     </div>
-                    <div class="item bg-info">
+                    <div class="item">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                             <img src="images/team-3.jpg" alt="" class="img-fluid rounded">
                             <div class="px-4">
@@ -298,12 +298,12 @@
                                 <small class="text-uppercase">yousufi-mahdi</small>
                             </div>
                         </div>
-                        <div class="pt-4 pb-3 px-5">
+                        <div class="paragraph pt-4 pb-3 px-5">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, eveniet, possimus
                                 repelt ipsam labore n</p>
                         </div>
                     </div>
-                    <div class="item bg-info">
+                    <div class="item">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                             <img src="images/team-2.jpg" alt="" class="img-fluid rounded">
                             <div class="px-4">
@@ -311,12 +311,12 @@
                                 <small class="text-uppercase">yousufi-mahdi</small>
                             </div>
                         </div>
-                        <div class="pt-4 pb-3 px-5">
+                        <div class="paragraph pt-4 pb-3 px-5">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, eveniet, possimus
                                 repelt ipsam labore n</p>
                         </div>
                     </div>
-                    <div class="item bg-info">
+                    <div class="item">
                         <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                             <img src="images/logo.jpg" alt="" class="img-fluid rounded">
                             <div class="px-4">
@@ -324,7 +324,7 @@
                                 <small class="text-uppercase">yousufi-mahdi</small>
                             </div>
                         </div>
-                        <div class="pt-4 pb-3 px-5">
+                        <div class="paragraph pt-4 pb-3 px-5">
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, eveniet, possimus
                                 repelt ipsam labore n</p>
                         </div>
@@ -388,7 +388,7 @@
                                 <a href=""
                                     class="text-decoration-none first-bg  p-3 rounded mx-2 d-flex justify-content-center align-items-center">
                                     <i class="fa-brands fa-instagram text-white"></i>
-                            </a>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -427,6 +427,24 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+          margin: 10,
+          loop: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 2
+            },
+            1000: {
+              items: 3
+            }
+          }
+        })
+  </script>
 </body>
 
 </html>

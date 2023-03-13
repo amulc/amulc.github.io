@@ -136,14 +136,12 @@ input {
     height: 4px;
     background: var(--main-color);
     border-radius: 2px;
-    position: relative;
 }
 
 .animation-2-2 {
     width: 4px;
     position: absolute;
     height: 4px;
-    background: white;
     animation: animation-2-medium-run 5s infinite linear;
 }
 
@@ -172,6 +170,10 @@ a {
 
 .icon-footer li:hover {
     padding-right: 10px;
+}
+
+.icon-footer li:hover i {
+    color: var(--main-hover-color);
 }
 
 .icon-footer li {
@@ -315,6 +317,7 @@ i.info {
 
 #font-bold {
     font-family: "bahij-bold";
+    font-size: 1.3rem;
 }
 
 div.owl-carousel .item div:nth-child(1) {
@@ -325,24 +328,20 @@ div.owl-carousel .item .paragraph:nth-child(2) {
     background-color: #a5c09e;
 }
 
-.owl-carousel .owl-nav button.owl-next {
-    font-size: 40px !important;
-    color: var(--main-hover-color);
+div.owl-nav span {
+    font-size: 45px !important;
+    color: var(--main-hover-color) !important;
 }
 
-.owl-carousel .owl-nav button.owl-prev {
-    font-size: 40px !important;
-    color: var(--main-hover-color);
+div.owl-nav span:hover {
+    background: var(--BC-color) !important;
+    color: var(--main-color) !important;
 }
 
 .owl-carousel .item h4 {
     color: var(--main-color);
 }
 
-.item {
-    height: 325px;
-    width: 100%;
-}
 
 .owl-carousel.owl-drag .owl-item {
     width: 370px;
@@ -359,8 +358,8 @@ div.owl-carousel .item .paragraph:nth-child(2) {
 .owl-theme .owl-dots .owl-dot span {
     width: 15px;
     height: 15px;
-    border-radius: 0px;
-    background: #c4baba !important;
+    border-radius: 2px;
+    background: #b5b9bd !important;
 }
 
 .owl-carousel .owl-nav button.owl-prev {
@@ -396,6 +395,11 @@ small {
 
 
 /* choose us section style */
+@media screen and (min-width:768px) {
+    .f-right {
+        text-align: right !important;
+    }
+}
 
 div.child-1 {
     width: 65px;
@@ -483,14 +487,11 @@ select {
   color: var(--Orange-color);
 } */
 
-div.owl-nav span {
+/* div.owl-nav span {
     color: var(--Orange-color) !important;
-}
+} */
 
-div.owl-nav span:hover {
-    background: var(--BC-color) !important;
-    color: var(--BC-color) !important;
-}
+
 
 div.item .description {
     background-color: var(--Orange-color);
@@ -510,5 +511,21 @@ div.item {
     margin: 0px 20px;
 }
 
+@media screen and (max-width:768px) {
+    .student-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #font-bold {
+        padding-top: 20px;
+    }
+
+    .paragraph {
+        text-align: center;
+    }
+
+
+}
 
 /* end of teacher section */

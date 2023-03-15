@@ -40,7 +40,16 @@ html {
   color: black;
   font-weight: 700;
 }
-
+.amu {
+  font-size: 30px;
+  font-family: "bahij-bold";
+  color: black;
+  font-weight: 700;
+}
+.amu i{
+    font-size: 25px;
+    font-weight: 800;
+}
 input {
   border-radius: 0px !important;
 }
@@ -75,61 +84,32 @@ nav a:hover {
   font-family: "bahij-bold";
   font-size: 120px !important;
 }
-.choose-us {
+.choose-us,
+.teacher {
   background-color: var(--light);
+}
+.contact {
+  background-color:var(--light)
 }
 div.student .item {
   background-color: var(--light) !important;
 }
-#amu-logo {
-  max-width: 180px;
-  max-height: 180px;
-  width: auto;
-  height: auto;
-}
-
 #bg-carousel {
   background-image: url("../images/carousel-1.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
-
 .header {
   background-color: rgba(9, 30, 62, 0.7);
   height: 100%;
-  /* position: relative; */
 }
 
 .navbar {
   border-bottom: 1px solid rgba(256, 256, 256, 0.1);
 }
 
-.navbar-nav-inner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1000;
-  background-color: rgba(9, 30, 62, 0.7);
-}
-
-#navbarCollapse .active {
-  border-bottom: var(--primary) 2px solid;
-}
-
-#navbarCollapse .nav-item:hover {
-  border-bottom: var(--primary) 2px solid;
-}
-
-#navbarCollapse a {
-  line-height: 4.5;
-}
-
 .facts {
-  /* margin-top: -75px; */
-  /* z-index: 999999999999; */
   position: relative;
   top: -75px;
 }
@@ -196,6 +176,7 @@ div.student .item {
   height: 50px;
   width: 55px;
   transition: 1s;
+  background-color: var(--primary);
 }
 
 .media a:hover {
@@ -241,45 +222,10 @@ i.info {
   height: 50px;
 }
 
-#col-3 {
-  color: #6c757d;
-}
-
-#row-3 {
-  margin-left: 20px;
-}
-
-#row-3 i {
-  background-color: #075f9f;
-}
-
-#row-4 i {
-  margin-left: 8px;
-  color: #075f9f;
-}
-
-#row-4 div {
-  font-family: var(--bahij-bold);
-  font-size: 1.5rem;
-}
-
-#number h5 {
-  font-family: var(--bahij-bold);
-  color: #075f9f;
-}
-
-#number span {
-  color: #6c757d;
-}
 
 /* end of about us style */
 
 /* student style section */
-
-.main-color {
-  color: var(--primary);
-}
-
 .animation-1 {
   width: 150px;
   height: 5px;
@@ -310,9 +256,6 @@ i.info {
   }
 }
 
-#font-bold {
-  font-family: "bahij-bold";
-}
 
 .owl-carousel .owl-nav button.owl-next {
   font-size: 40px !important;
@@ -327,12 +270,6 @@ i.info {
 .owl-carousel .item h4 {
   color: var(--primary);
 }
-
-.item {
-  height: 325px;
-  width: 100%;
-}
-
 .owl-carousel.owl-drag .owl-item {
   width: 370px;
   margin: 0px;
@@ -367,7 +304,7 @@ i.info {
   color: var(--main-hover-color);
 }
 
-.owl-carousel .owl-item img {
+div.student .owl-carousel .owl-item img {
   width: 60px;
   height: 60px;
 }
@@ -415,7 +352,7 @@ div.child-1 {
   font-family: "bahij-bold";
 }
 p {
-  color: var(--gray);
+  color: black;
 }
 
 /* end of choose us style */
@@ -442,47 +379,30 @@ select {
   height: 45px;
 }
 
-/* end of contact section */
-
-/* teacher section */
-
-/* .owl-theme .owl-dots .owl-dot span {
-  width: 20px;
-  height: 20px;
-  border-radius: 0px;
-  background: var(--gray) !important;
-} */
-
-/* .owl-theme .owl-dots .owl-dot span:hover {
-  background: var(--primary) !important;
-  color: var(--Orange-color);
-} */
-
 div.owl-nav span {
-  color: var(--Orange-color) !important;
+  color: var(--main-color);
+  font-size: 40px;
+  opacity: 9;
+  color: var(--Orange-color);
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background-color: white;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: var(--main-hover-color);
 }
 
 div.owl-nav span:hover {
-  background: var(--BC-color) !important;
-  color: var(--BC-color) !important;
-}
-
-div.item .description {
-  background-color: var(--Orange-color);
+  background: var(--BC-color);
   color: var(--BC-color);
 }
 
 div.item .description:hover {
-  background-color: var(--BC-color);
-  color: var(--Orange-color) !important;
+  background-color: var(--secondary);
 }
-
-div.item .description p {
-  color: var(--color) !important;
-}
-
-div.item {
-  margin: 0px 20px;
+.contact-us .container {
+  background: linear-gradient(90deg, #f0f2ff 0%, #fbf7f2 100%);
 }
 
 /* end of teacher section */

@@ -33,6 +33,11 @@ html {
   color: var(--primary);
   font-family: "bahij-bold";
 }
+.subtitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-family: "bahij-bold";
+}
 
 .title-des {
   font-size: 30px;
@@ -46,9 +51,9 @@ html {
   color: black;
   font-weight: 700;
 }
-.amu i{
-    font-size: 25px;
-    font-weight: 800;
+.amu i {
+  font-size: 25px;
+  font-weight: 800;
 }
 input {
   border-radius: 0px !important;
@@ -78,7 +83,7 @@ nav a {
   font-size: 24px !important;
 }
 nav a:hover {
-  color: var(--primary) !important;
+  color: var(--secondary) !important;
 }
 .shoaar {
   font-family: "bahij-bold";
@@ -89,7 +94,7 @@ nav a:hover {
   background-color: var(--light);
 }
 .contact {
-  background-color:var(--light)
+  background-color: var(--light);
 }
 div.student .item {
   background-color: var(--light) !important;
@@ -148,20 +153,14 @@ div.student .item {
   }
 }
 
-.copy-write {
-  background-color: #061429;
-}
-
 .icon-footer li:hover {
   padding-right: 10px;
 }
-
 .icon-footer li {
   transition: 0.5s;
 }
-
-.icon-footer li a i {
-  color: var(--primary);
+.icon-footer li a:hover i {
+  color: var(--secondary) !important;
 }
 
 .quick-links span {
@@ -210,19 +209,6 @@ i.info {
   border-radius: 2px;
 }
 
-.section-title-run {
-  width: 6px;
-  height: 5px;
-  background-color: #fff;
-}
-
-#button-12 {
-  width: 200px;
-  margin-top: 20px;
-  height: 50px;
-}
-
-
 /* end of about us style */
 
 /* student style section */
@@ -256,25 +242,6 @@ i.info {
   }
 }
 
-
-.owl-carousel .owl-nav button.owl-next {
-  font-size: 40px !important;
-  color: var(--main-hover-color);
-}
-
-.owl-carousel .owl-nav button.owl-prev {
-  font-size: 40px !important;
-  color: var(--main-hover-color);
-}
-
-.owl-carousel .item h4 {
-  color: var(--primary);
-}
-.owl-carousel.owl-drag .owl-item {
-  width: 370px;
-  margin: 0px;
-}
-
 .owl-theme .owl-dots .owl-dot.active span {
   width: 15px;
   height: 15px;
@@ -294,11 +261,9 @@ i.info {
   height: 10px;
 }
 
-.owl-carousel .owl-nav button.owl-next:hover {
-  background-color: white;
-  color: var(--main-hover-color);
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background-color: transparent;
 }
-
 .owl-carousel .owl-nav button.owl-prev:hover {
   background-color: white;
   color: var(--main-hover-color);
@@ -307,14 +272,6 @@ i.info {
 div.student .owl-carousel .owl-item img {
   width: 60px;
   height: 60px;
-}
-
-p {
-  color: var(--gray);
-}
-
-small {
-  color: var(--gray);
 }
 
 /* end of style for student section  */
@@ -327,25 +284,15 @@ div.child-1 {
   font-family: "bahij-bold";
 }
 
-div.child-1:hover {
-  background-color: #0a89e4;
-}
-
-div.child-1 i {
-  transition: 1s;
-}
-
-div.child-1 {
-  transition: 1s;
-}
-
 div.child-1:hover i {
-  filter: invert(100%);
+  color: var(--secondary) !important;
 }
-
 div.child-1 {
   width: 65px;
   height: 65px;
+}
+div.child-1 i {
+  transition: 0.7s;
 }
 
 #bahij-bold {
@@ -363,16 +310,12 @@ textarea + input {
   border: none !important;
 }
 
-div.phone i {
-  color: var(--Wc-color);
-}
-
-div.col-1 {
+/* div.col-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   background: var(--BC-color);
-}
+} */
 
 select {
   border-radius: 0px !important;
@@ -380,23 +323,24 @@ select {
 }
 
 div.owl-nav span {
-  color: var(--main-color);
-  font-size: 40px;
+  /* color: var(--primary); */
+  font-size: 70px;
   opacity: 9;
-  color: var(--Orange-color);
+  color: var(--secondary);
 }
-.owl-theme .owl-nav [class*="owl-"]:hover {
+div.owl-nav span:hover {
+  background-color: transparent;
+}
+.owl-carousel .owl-nav button.owl-next {
+  background-color: transparent;
+}
+/* .owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: white;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
   background: var(--main-hover-color);
-}
-
-div.owl-nav span:hover {
-  background: var(--BC-color);
-  color: var(--BC-color);
-}
+} */
 
 div.item .description:hover {
   background-color: var(--secondary);
@@ -405,4 +349,27 @@ div.item .description:hover {
   background: linear-gradient(90deg, #f0f2ff 0%, #fbf7f2 100%);
 }
 
+/* choose us section style */
+@media screen and (max-width: 768px) {
+  .f-right {
+    text-align: center !important;
+  }
+  .child-1 {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .student-info {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* #font-bold {
+    padding-top: 20px;
+  } */
+
+  .paragraph {
+    text-align: center;
+  }
+}
 /* end of teacher section */
